@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/blog/22-01-01-firstpost/</loc>
+		<lastmod>2018-05-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/blog/22-01-01-second-post/</loc>
+		<lastmod>2018-07-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/blog/22-01-03-third/</loc>
+		<lastmod>2018-08-24</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/blog/22-01-04-fourth-post/</loc>
+		<lastmod>2018-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/blog/22-01-05-fifth-post/</loc>
+		<lastmod>2023-01-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/about/</loc>
+		<lastmod>2024-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/blog/</loc>
+		<lastmod>2024-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/</loc>
+		<lastmod>2024-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/tags/</loc>
+		<lastmod>2024-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://blog.stefn.co.uk/feed/feed.xml</loc>
+		<lastmod>2024-11-17</lastmod>
+	</url>
+</urlset>
