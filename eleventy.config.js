@@ -32,6 +32,7 @@ export default async function (eleventyConfig) {
 
   // Watch content images for the image pipeline.
   eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+  eleventyConfig.addWatchTarget("posts");
 
   // Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
   // Adds the {% css %} paired shortcode
