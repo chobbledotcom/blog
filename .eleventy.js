@@ -27,10 +27,6 @@ export default async function (eleventyConfig) {
     })
     .addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
-  // Run Eleventy when these files change:
-  // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-
-  // Watch content images for the image pipeline.
   eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
   // Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
@@ -52,7 +48,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
   eleventyConfig.addPlugin(feedPlugin, {
-    type: "atom", // or "rss", "json"
+    type: "atom",
     outputPath: "/feed/feed.xml",
     stylesheet: "pretty-atom-feed.xsl",
     templateData: {
@@ -67,12 +63,9 @@ export default async function (eleventyConfig) {
     },
     metadata: {
       language: "en",
-      title: "Stefan Burke's blog",
-      subtitle: "Waffle.",
-      base: "https://blog.stefn.co.uk/",
-      author: {
-        name: "Stefan Burke",
-      },
+      title: "blog.chobble.com",
+      subtitle: "Nix/NixOS, self hosting, and owning your data",
+      base: "https://blog.chobble.com/",
     },
   });
 

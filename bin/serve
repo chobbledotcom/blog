@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-rm -rf _site
-
-nix-shell -p nodePackages.pnpm --command "
-  echo 'Serving site'
-  pnpm install
-  pnpm eleventy --serve
-"

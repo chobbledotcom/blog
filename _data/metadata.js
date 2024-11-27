@@ -1,11 +1,6 @@
 export default {
-  title: "Stef's Blog",
-  url: "https://blog.stefn.co.uk/",
+  title: "blog.chobble.com",
+  url: "https://blog.chobble.com/",
   language: "en",
-  description: "Waffle",
-  author: {
-    name: "Stefan Burke",
-    email: "me@stefn.co.uk",
-    url: "https://stefn.co.uk/",
-  },
+  description: "Nix/NixOS, self hosting, and owning your data",
 };
