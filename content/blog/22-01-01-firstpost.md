@@ -9,7 +9,15 @@ I haven't had a blog in about 20 years. Exciting!
 
 I ([Stefan](https://stefn.co.uk)) am a web developer with 17+ years experience. I've worked at [Bandcamp](https://bandcamp.com) for the last 5.5 of those but am now starting my own business. It's called [Chobble](https://chobble.com) - a nonsense word.
 
-The business will make and sell web software - static sites and Ruby on Rails projects, mostly. I am a big fan of the free and open source world, and so I want everything I make to be freedom-respecting, and to be totally transparent about the business, my costs, and the code I write.
+The business will:
+
+- Teach local businesses how to take control of their online presence.
+- Build websites and tooling using libre and freedom-respecting technologies.
+- Open source the code I write and give and complete instructions.
+- Never lock anyone in to using my services.
+- Be very transparent about my costs and finances.
+- Work at discounted or free rates for ethically-minded businesses.
+- Trade services rather than money whenever possible.
 
 This is a very different approach from most web agencies who instead want to lock you in to using their platform and want you to rely on them for everything, so you need to start from scatch if you move.
 
