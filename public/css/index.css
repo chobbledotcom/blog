@@ -73,6 +73,10 @@ body {
   width: 1px;
 }
 
+.faded {
+  color: var(--color-gray-50);
+}
+
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
 img {
   max-width: 100%;

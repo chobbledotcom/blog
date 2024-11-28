@@ -11,13 +11,13 @@ I ([Stefan](https://stefn.co.uk)) am a web developer with 17+ years experience. 
 
 The business will:
 
-- Teach local businesses how to take control of their online presence.
-- Build websites and tooling using libre and freedom-respecting technologies.
-- Open source the code I write and give and complete instructions.
-- Never lock anyone in to using my services.
-- Be very transparent about my costs and finances.
-- Work at discounted or free rates for ethically-minded businesses.
-- Trade services rather than money whenever possible.
+- Teach local businesses to take control of their online presence
+- Build everything using libre and freedom-respecting technologies
+- Open source the code and give complete instructions
+- Never lock anyone in to using my services
+- Be totally transparent about costs / finances
+- Work at a discount / free rates ethically-minded businesses
+- Trade services instead of money when I can
 
 This is a very different approach from most web agencies who instead want to lock you in to using their platform and want you to rely on them for everything, so you need to start from scatch if you move.
 
