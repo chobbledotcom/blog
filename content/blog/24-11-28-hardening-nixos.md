@@ -229,7 +229,7 @@ in {
 
 ## flake.nix
 
-And here's my `flake.nix` which includes the above file in `/host/chobble/settings.nix`
+And here's my `flake.nix` which includes the above file in `./hosts/chobble/settings.nix`
 
 ```
 {
