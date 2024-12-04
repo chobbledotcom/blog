@@ -19,6 +19,7 @@
   --text-color-link: #082840;
   --text-color-link-active: #5f2b48;
   --text-color-link-visited: #17050f;
+  --code-background-color: #e0e0e0;
 
   --syntax-tab-size: 2;
 }
@@ -33,6 +34,7 @@
     --text-color-link: #1493fb;
     --text-color-link-active: #6969f7;
     --text-color-link-visited: #a6a6f8;
+    --code-background-color: #33485c;
 
     --background-color: #15202b;
   }
@@ -174,7 +176,7 @@ pre:not([class*="language-"]) {
 }
 code {
   word-break: break-all;
-  background: var(--color-gray-20);
+  background: var(--code-background-color);
   padding: 0 0.5rem;
 }
 
