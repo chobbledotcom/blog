@@ -2,7 +2,9 @@
 title: Nix Site Builder Updates
 description: More useful, more stable
 date: 2024-12-03
-tags: nixos
+tags:
+- nixos
+- business
 ---
 
 An update on my efforts to get everything in place to run a libre / ethical / transparent web development agency. I took it easy for a couple of weeks but I'm trying to ramp up the pace now.
