@@ -1,11 +1,13 @@
 # node-deps.nix
-{ pkgs ? import <nixpkgs> {} }:
+{
+  pkgs ? import <nixpkgs> { },
+}:
 
 let
   packageJSON = pkgs.writeTextFile {
     name = "package.json";
     text = builtins.toJSON {
-      name = "veganprestwich-co-uk";
+      name = "blog-chobble-com";
       version = "1.0.0";
       type = "module";
       dependencies = {
@@ -25,11 +27,11 @@ let
   };
 
   nodeModules = pkgs.mkYarnModules {
-    pname = "veganprestwich-co-uk-deps";
+    pname = "blog-chobble-com-deps";
     version = "1.0.0";
     packageJSON = packageJSON;
     yarnLock = ./yarn.lock;
-    yarnFlags = ["--frozen-lockfile"];
+    yarnFlags = [ "--frozen-lockfile" ];
   };
 in
 {
