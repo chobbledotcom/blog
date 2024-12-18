@@ -1,4 +1,6 @@
 .aider*
+.direnv/*
 .env
 node_modules
+package.json
 _site
