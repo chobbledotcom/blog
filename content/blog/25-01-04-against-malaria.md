@@ -7,7 +7,7 @@ tags: charity
 
 For the last decade or so I have pledged to donate at least 10% of my income to charitable causes, and my work as a freelancer will be no different.
 
-As 'Chobble' that 10% will go to the [Against Malaria Foundation](https://www.againstmalaria.com) who represent one of the best value for money ways of saving lives - they buy insecticide-treated sleeping nets for people to sleep under, with an average cost of just $5,500 per life saved.
+As 'Chobble' that 10% will go to the [Against Malaria Foundation](https://www.againstmalaria.com) who represent one of the best value for money ways of saving lives - they buy insecticide-treated nets for people to sleep under, with an average cost of just $5,500 per life saved.
 
 (You can search for me - Stefan Burke - on [their list of sponsors](https://www.againstmalaria.com/Donations.aspx) to see my previous donations)
 
