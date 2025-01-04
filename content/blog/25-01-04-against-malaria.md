@@ -1,7 +1,7 @@
 ---
 title: Donating 10% to the Against Malaria Foundation
 description: We donate 10% to the Against Malaria Foundation 
-date: 2024-12-05
+date: 2025-01-04
 tags: charity
 ---
 
