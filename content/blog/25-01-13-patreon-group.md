@@ -2,7 +2,7 @@
 title: I started a Patreon
 description: Marketing advice and search engine optimisation tips 
 date: 2025-01-13
-tags: seo
+tags: search engine optimisation
 ---
 
 In my previous roles my knowledge about how to optimise websites to do well on Google has been something that customers / bosses have really appreciated.
