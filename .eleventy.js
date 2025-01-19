@@ -69,6 +69,9 @@ export default async function (eleventyConfig) {
       title: "blog.chobble.com",
       subtitle: "Nix/NixOS, self hosting, and owning your data",
       base: "https://blog.chobble.com/",
+      author: {
+        name: "Chobble"
+      }
     },
   });
 
