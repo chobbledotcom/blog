@@ -1,12 +1,14 @@
 import {
+  HtmlBasePlugin,
   IdAttributePlugin,
   InputPathToUrlTransformPlugin,
-  HtmlBasePlugin,
 } from "@11ty/eleventy";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import Image from "@11ty/eleventy-img";
+import pluginNavigation from "@11ty/eleventy-navigation";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import pluginNavigation from "@11ty/eleventy-navigation";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import fs from "fs/promises";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -27,7 +29,7 @@ export default async function (eleventyConfig) {
     })
     .addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
-  eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+  eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg,njk}");
   eleventyConfig.addWatchTarget("posts");
 
   // Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
@@ -107,6 +109,45 @@ export default async function (eleventyConfig) {
   // https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
   // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+  eleventyConfig.addFilter("splitlines", (input) => {
+    const parts = input.split(" ");
+    const lines = parts.reduce((prev, current) => {
+      if (!prev.length) {
+        return [current];
+      }
+      const lastOne = prev[prev.length - 1];
+      if (lastOne.length + current.length > 19) {
+        return [...prev, current];
+      }
+      prev[prev.length - 1] = lastOne + " " + current;
+      return prev;
+    }, []);
+    return lines;
+  });
+
+  eleventyConfig.on(
+    "eleventy.after",
+    async ({ directories, results, runMode, outputMode }) => {
+      const outDir = directories.output;
+      const socialPreviewImagesDir = `${outDir}social-preview-images/`;
+      const files = await fs.readdir(socialPreviewImagesDir);
+      console.log(files);
+      if (files.length == 0) return;
+      files.forEach(async (filename) => {
+        if (!filename.endsWith(".svg")) return;
+        const imageUrl = socialPreviewImagesDir + filename;
+        await Image(imageUrl, {
+          formats: ["jpeg"],
+          outputDir: "./" + socialPreviewImagesDir,
+          filenameFormat: (id, src, width, format, options) => {
+            const outputFilename = filename.substring(0, filename.length - 4);
+            return `${outputFilename}.${format}`;
+          },
+        });
+      });
+    },
+  );
 }
 
 export const config = {

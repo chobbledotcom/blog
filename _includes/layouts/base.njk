@@ -9,6 +9,10 @@
 		<meta name="generator" content="{{ eleventy.generator }}">
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
 		<style>{% getBundle "css" %}</style>
+		{% if tags %}
+      <meta property="og:image" content="https://blog.chobble.com/social-preview-images/{{ page.fileSlug }}.jpeg" />
+      <meta property="og:image:secure_url" content="https://blog.chobble.com/social-preview-images/{{ page.fileSlug }}.jpeg" />
+    {% endif %}
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
