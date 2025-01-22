@@ -1,4 +1,6 @@
-{ pkgs ? import <nixpkgs> {} }:
+{
+  pkgs ? import <nixpkgs> { },
+}:
 
 let
   # Input source files
@@ -10,19 +12,19 @@ in
 pkgs.stdenv.mkDerivation {
   name = "blog-chobble-com";
 
-  src = builtins.filterSource
-    (path: type: !(builtins.elem (baseNameOf path) [
+  src = builtins.filterSource (
+    path: type:
+    !(builtins.elem (baseNameOf path) [
       "_site"
       "node_modules"
       ".git"
-    ]))
-    src;
+    ])
+  ) src;
 
   nativeBuildInputs = with pkgs; [
     cacert
+    ubuntu-sans
     minify
-    lightningcss
-    sass
     yarn
   ];
 
