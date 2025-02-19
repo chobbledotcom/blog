@@ -1,6 +1,6 @@
 ---
 title: Spamming Works!*
-description:
+description: Spamming does work - in some respects - but does that mean you should become a spammer?
 date: 2025-02-19
 tags: search engine optimisation
 ---
