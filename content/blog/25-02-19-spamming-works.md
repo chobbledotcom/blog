@@ -51,7 +51,7 @@ The best way for a business to do well is to listen to the needs of its potentia
 
 But "focus" is a finite resource. If you're spending time focusing on paid backlinks, or keyword density, or other spammy techniques, that's time you're _not_ spending making your business more appealing to your future customers.
 
-If you spam the bejeezus out of your site and get it to the #1 spot for a competitive term, but you've neglected to focus on the visitor experience on they're actually on your site, you're onto a loser. All the visitors in the world won't help if none of them convert into customers.
+If you spam the bejeezus out of your site and get it to the #1 spot for a competitive term, but you've neglected to focus on the visitor experience once they're actually on your site, you're onto a loser. All the visitors in the world won't help if none of them convert into customers.
 
 ## You might risk legal penalities
 
