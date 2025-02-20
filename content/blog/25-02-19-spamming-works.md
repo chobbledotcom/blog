@@ -7,7 +7,7 @@ tags: search engine optimisation
 
 _\* at least in terms of Google rankings in the very short term._
 
-When I talk to small business owners about search engine optimisation and online marketing, I tell them to stick to _"white hat"_ methods - wholesome, positive changes they can make to provide more value to visitors and to hopefully push it up the search rankings.
+When I talk to small business owners about search engine optimisation and online marketing, I tell them to stick to _"white hat"_ methods - wholesome, positive changes they can make to provide more value to visitors and to hopefully push their website up the search rankings.
 
 This is in contrast to _"black hat"_ SEO which involves things like stuffing your site full of keywords, using generative AI to create dozens of pages, hiding text on your site, paying for links, and so on - shady and spammy activities that Google and other search engines _really_ don't want you to do.
 
