@@ -13,7 +13,7 @@ This post explains how to cook your baked beans perfectly.
 
 **tl;dr - Branston, eight minutes, microwave, lid.**
 
-Firstly, they **must** be [Branston beans](https://branstonbeans.co.uk/) - no others compare. If you really can't find Branston anywhere then Morrisons own-brand ones will do, but **do not fall for the Heinz propaganda** - they're taking you for a fool, trading off their once-good name to sell sad little pebbles barely even worthy of being called beans. Sickening.
+Firstly, for _perfect_ beans they **must** be [Branston's](https://branstonbeans.co.uk/) - no others compare. If you really can't find Branston anywhere then Morrisons own-brand ones will do, but **do not fall for the Heinz propaganda** - they're taking you for a fool, trading off their once-good name to sell sad little pebbles barely even worthy of being called beans. Sickening.
 
 Secondly, you need to **microwave the beans for eight minutes**, with something covering the top of your microwavable vessel to keep the moisture in. I recommend cooking in a Pyrex jug with a silicone lid.
 
