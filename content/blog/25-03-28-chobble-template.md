@@ -24,6 +24,8 @@ So, I've made the [Chobble Template](https://git.chobble.com/chobble/chobble-tem
 - An XML sitemap
 - A [Forgejo action](https://git.chobble.com/chobble/chobble-template/src/branch/main/.forgejo/workflows/neocities.yaml) to build and upload to Neocities
 
+You can see it in action at [example.chobble.com](https://example.chobble.com).
+
 The template will adjust itself based on the content available - if there's no products, news posts, or team members, it hides that bit from the navigation and doesn't generate pages for them.
 
 In the future I imagine it containing other neat features like:
