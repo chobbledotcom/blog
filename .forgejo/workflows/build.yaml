@@ -16,14 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build
-        id: build
         run: nix-build
 
-      - name: Deploy to neocities
-        uses: bcomnes/deploy-to-neocities@v3
-        with:
-          api_key: ${{ secrets.NEOCITIES_API_KEY }}
-          cleanup: true
-          neocities_supporter: true
-          preview_before_deploy: false
-          dist_dir: result
+      - name: Deploy
+        run: neocities push --prune result
