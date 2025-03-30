@@ -20,6 +20,7 @@
         };
 
         commonBuildInputs = with pkgs; [
+          fontconfig
           html-tidy
           sass
           ubuntu-sans
