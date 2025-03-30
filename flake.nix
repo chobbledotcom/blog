@@ -22,6 +22,7 @@
         commonBuildInputs = with pkgs; [
           html-tidy
           sass
+          ubuntu-sans
           yarn
         ];
 
