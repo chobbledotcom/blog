@@ -17,13 +17,13 @@ The official plugin can either catch `<img>` tags in the source code, or I can u
 
 This is _awesome_. Generating nice thumbnails and image tags is always a painful bit of web development, and the plugin lets me outsource a lot of that thinking.
 
-But the default setup is missing a feature I think is pretty neat - **adding a background-image CSS style of a base64-encoded low quality image placeholder (LQIP) and setting the aspect-ratio CSS class of the image**.
+But the default setup is missing a feature I think is pretty neat - **adding a background-image CSS style of a base64-encoded low quality image placeholder (LQIP) and setting the aspect-ratio of the image**.
 
 ![A screenshot of the Chobble Example template before any images have loaded - in their place are low quality, blocky placeholders](/blog/img/low-quality-image-placeholders.png)
 
 Having `background-image` with a LQIP and `aspect-ratio` filled into the page's HTML brings some nice advantages:
 
-- Reduced "Layout Shift" as the page loads because the boxes where images go are already the right size.
+- Removes "Layout Shift" as the page loads because the boxes where images go are already the right size.
 - Pages load with a low quality image which is replaced by the high-quality one as soon as it's available, which makes them feel fast.
 
 This is especially beneficial when using [Turbo](https://turbo.hotwired.dev/) which lets static websites feel like single-page apps by preloading links when you hover over them. Since the LQIP is part of the page's HTML, it's instantly there.

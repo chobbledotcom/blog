@@ -177,7 +177,7 @@ pre:not([class*="language-"]) {
   overflow-x: auto;
 }
 code {
-  word-break: break-all;
+  word-break: keep-all;
   background: var(--code-background-color);
   padding: 0 0.5rem;
 }
