@@ -1,7 +1,7 @@
 ---
 title: Hardening NixOS
 description: Hardening my NixOS server
-date: 2024-11-27
+date: 2024-11-28
 tags: nixos
 ---
 
@@ -18,7 +18,7 @@ Changes I made were:
 
 Here's the Chobble server configuration as it stands, with secrets redacted:
 
------
+---
 
 # settings.nix
 
@@ -225,7 +225,7 @@ in {
 }
 ```
 
------
+---
 
 ## flake.nix
 
@@ -362,7 +362,7 @@ And here's my `flake.nix` which includes the above file in `./hosts/chobble/sett
 }
 ```
 
------
+---
 
 I was tempted to tidy the `flake.nix` file up to just the most relevent bits but I think it's probably handier to see how the Chobble server fits alongside my other machines.
 
