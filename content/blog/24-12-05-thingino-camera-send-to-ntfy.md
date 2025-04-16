@@ -3,7 +3,7 @@ title: Getting Thingino webhooks to play nice with ntfy
 description: A simple fix
 date: 2024-12-05
 tags:
-- Home automation
+  - Home automation
 ---
 
 A quick fix for anyone else who's got a [Thingino](https://thingino.com/) firmware'd camera and wants to send notifications with screenshots to [ntfy](https://ntfy.sh/) via Thingino's 'webhook' option.
@@ -23,6 +23,8 @@ You'll need to:
 
 Change [line 36](https://github.com/themactep/thingino-firmware/blob/master/overlay/lower/usr/sbin/send2webhook#L36) from `build_cmd "-F 'image=@$attachment'"` to something like:
 
-`build_cmd "-T '$attachment' -H 'Filename: camera.jpg'" -H 'Tag: camera_flash' -H 'Title: Front door motion detected'`
+```bash
+build_cmd "-T '$attachment' -H 'Filename: camera.jpg'" -H 'Tag: camera_flash' -H 'Title: Front door motion detected'
+```
 
 Save and you're done. Easy!

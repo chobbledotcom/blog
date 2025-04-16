@@ -22,7 +22,7 @@ Here's the Chobble server configuration as it stands, with secrets redacted:
 
 # settings.nix
 
-```
+```nix
 # This is a NixOS configuration file for a server that runs:
 # - Forgejo (git hosting)
 # - Caddy (reverse proxy)
@@ -231,7 +231,7 @@ in {
 
 And here's my `flake.nix` which includes the above file in `./hosts/chobble/settings.nix`
 
-```
+```nix
 {
   description = "Machine Flakes";
 
