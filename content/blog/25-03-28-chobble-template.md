@@ -22,7 +22,7 @@ So, I've made the [Chobble Template](https://git.chobble.com/chobble/chobble-tem
 - A responsive design via `@media` breakpoints
 - Tiered navigation from Eleventy's navigation plugin
 - An XML sitemap
-- A [Forgejo action](https://git.chobble.com/chobble/chobble-template/src/branch/main/.forgejo/workflows/neocities.yaml) to build and upload to Neocities
+- A [Forgejo action](https://git.chobble.com/chobble/chobble-template/src/branch/main/.forgejo/workflows/build-and-deploy.yaml) to build and upload to Neocities
 
 You can see it in action at [example.chobble.com](https://example.chobble.com).
 
