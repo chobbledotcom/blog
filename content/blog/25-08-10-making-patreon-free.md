@@ -3,7 +3,7 @@ title: "My Patreon didn't work out and is now free"
 description: "It turns out being a content creator is really hard work"
 date: 2025-07-20
 tags:
-  - Search Engine Optimisation
+  - search engine optimisation
 ---
 
 Back in January [I started a Patreon page for online marketing advice](/blog/25-01-13-patreon-group/). I wanted to take the "teach a man to fish" approach to search engine optimisation - to demystify it and put business owners in control of their own websites and online presences.
