@@ -1,0 +1,54 @@
+media:
+  input: content/blog/img
+  output: /blog/img
+  path: content/blog/img
+  categories: [image]
+content:
+  - name: blog_posts
+    label: Blog Posts
+    path: content/blog
+    type: collection
+    subfolders: false
+    filename: "{date}-{primary}.md"
+    view:
+      fields: [title, date, tags, description]
+      primary: title
+      sort: [date, title]
+      reverse: true
+    fields:
+      - { name: title, type: string, label: Title, required: true }
+      - { name: description, type: text, label: Description }
+      - { name: date, type: date, label: Date, required: true }
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - { name: draft, type: boolean, label: Draft }
+      - { name: body, label: Content, type: code, options: { language: markdown } }
+
+  - name: pages
+    label: Pages
+    path: content
+    type: collection
+    subfolders: false
+    view:
+      fields: [title, permalink, layout]
+      primary: title
+      sort: [title]
+    fields:
+      - { name: title, type: string, label: Title }
+      - { name: permalink, type: string, label: Permalink }
+      - { name: layout, type: string, label: Layout }
+      - { name: eleventyNavigation, type: object, label: Navigation Settings }
+      - { name: body, label: Content, type: code, options: { language: markdown } }
+
+  - name: site_metadata
+    label: Site Configuration
+    path: _data
+    type: file
+    file: metadata.js
+    fields:
+      - { name: title, type: string, label: Site Title }
+      - { name: url, type: string, label: Site URL }
+      - { name: language, type: string, label: Language }
+      - { name: description, type: string, label: Site Description }
