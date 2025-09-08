@@ -1,7 +1,7 @@
 ---
 title: My Patreon didn't work out and is now free
 description: It turns out being a content creator is really hard work
-date: 2025-07-08
+date: 2025-08-08
 tags:
   - search engine optimisation
 redirect_from:
