@@ -23,6 +23,10 @@ content:
         label: Tags
         type: string
         list: true
+      - name: redirect_from
+        label: Redirect From
+        type: string
+        list: true
       - { name: draft, type: boolean, label: Draft }
       - { name: body, label: Content, type: code, options: { language: markdown } }
 
