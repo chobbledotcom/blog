@@ -56,13 +56,9 @@ jobs:
           path: _site
 
       - name: Deploy to Bunny CDN
-        uses: ayeressian/bunnycdn-storage-deploy@v2.2.2
-        with:
-          source: "_site"
-          destination: "/"
-          storageZoneName: "chobble-blog"
-          accessKey: ${{ secrets.BUNNY_ACCESS_KEY }}
-          pullZoneId: "4583108"
-          upload: "true"
-          remove: "true"
-          purgePullZone: "true"
+        run: |
+          npm install -g bnycdn
+          bnycdn key set default ${{ secrets.BUNNY_ACCESS_KEY }}
+          bnycdn key set chobble-blog ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }} --type=storages
+          bnycdn cp -R -s chobble-blog ./_site /
+          bnycdn pz purge -t 4583108
