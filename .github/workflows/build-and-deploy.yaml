@@ -55,10 +55,16 @@ jobs:
           name: built-site
           path: _site
 
-      - name: Deploy to Bunny CDN
-        run: |
-          npm install -g bnycdn
-          bnycdn key set default ${{ secrets.BUNNY_ACCESS_KEY }}
-          bnycdn key set chobble-blog ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }} -t storages
-          bnycdn cp -s chobble-blog -R --from ./_site/ --to /
-          bnycdn pz purge -t 4583108
+      - name: Deploy to Bunny
+        uses: R-J-dev/bunny-deploy@v2.0.6
+        with:
+          access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
+          directory-to-upload: _site
+          storage-endpoint: "https://storage.bunnycdn.com"
+          storage-zone-name: "chobble-blog"
+          storage-zone-password: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
+          concurrency: "5"
+          enable-delete-action: true
+          enable-purge-pull-zone: true
+          pull-zone-id: "4583108"
+          replication-timeout: "15000"
