@@ -1,52 +1,29 @@
 {
-  inputs = {
-    nixpkgs.url = "nixpkgs";
-  };
+  inputs.nixpkgs.url = "nixpkgs";
 
   outputs =
-    { self, nixpkgs }:
+    { nixpkgs, ... }:
     let
-      systems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
-      forAllSystems = nixpkgs.lib.genAttrs systems;
-
-      makeEnvForSystem =
-        system:
-        let
-          pkgs = import nixpkgs { system = system; };
-
-          devDependencies = with pkgs; [
-            nodejs_23
-          ];
-        in
-        {
-          inherit pkgs;
-          devEnv = {
-            inherit pkgs;
-            dependencies = devDependencies;
-          };
-        };
+      forAllSystems = nixpkgs.lib.genAttrs [ "x86_64-linux" ];
     in
     {
       devShells = forAllSystems (
         system:
         let
-          env = makeEnvForSystem system;
-          inherit (env.devEnv)
-            pkgs
-            dependencies
-            ;
+          pkgs = import nixpkgs { inherit system; };
         in
         {
           default = pkgs.mkShell {
-            buildInputs = dependencies;
+            packages = with pkgs; [ nodejs_24 ];
 
             shellHook = ''
+              [ ! -d node_modules ] && npm install
+
               cat <<EOF
 
               Development environment ready!
 
               Available commands:
-               - 'npm install'     # Install dependencies
                - 'npm run serve'   # Start development server
                - 'npm run build'   # Build the site in the _site directory
                - 'npm run dev'     # Start development server (alias for serve)

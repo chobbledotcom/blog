@@ -1,4 +1,4 @@
-name: Build and Deploy to Neocities
+name: Build and Deploy to Bunny CDN
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 23
+          node-version: 24
 
       - name: Restore cache
         uses: actions/cache@v4
@@ -44,7 +44,7 @@ jobs:
           retention-days: 1
 
   deploy:
-    name: Deploy to Neocities
+    name: Deploy to Bunny CDN
     needs: build
     runs-on: ubuntu-latest
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
@@ -55,11 +55,14 @@ jobs:
           name: built-site
           path: _site
 
-      - name: Deploy to neocities
-        uses: bcomnes/deploy-to-neocities@v3
+      - name: Deploy to Bunny CDN
+        uses: ayeressian/bunnycdn-storage-deploy@v2.2.2
         with:
-          api_key: ${{ secrets.NEOCITIES_API_KEY }}
-          cleanup: true
-          neocities_supporter: true
-          preview_before_deploy: false
-          dist_dir: _site
+          source: "_site"
+          destination: "/"
+          storageZoneName: "chobble-blog"
+          accessKey: ${{ secrets.BUNNY_ACCESS_KEY }}
+          pullZoneId: "4583108"
+          upload: "true"
+          remove: "true"
+          purgePullZone: "true"
