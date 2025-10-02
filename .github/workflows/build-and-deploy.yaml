@@ -60,5 +60,5 @@ jobs:
           npm install -g bnycdn
           bnycdn key set default ${{ secrets.BUNNY_ACCESS_KEY }}
           bnycdn key set chobble-blog ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }} --type=storage
-          bnycdn cp -R -s chobble-blog ./_site /
+          bnycdn cp -R -s chobble-blog ./_site/ /
           bnycdn pz purge -t 4583108
