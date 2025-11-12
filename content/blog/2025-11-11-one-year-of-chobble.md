@@ -1,5 +1,6 @@
 ---
 title: One year of Chobble
+description: "Reflections after a year of freelancing "
 date: 2025-11-11
 tags:
   - web dev
