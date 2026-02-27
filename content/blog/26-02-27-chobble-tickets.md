@@ -12,7 +12,7 @@ draft: false
 
 The ticket-selling world is one of rentier capitalism. The sales platforms add their own fees onto every sale, on top of the unavoidable payment processing fees. At a minimum, this works out to about 70p of inescapable costs on every sale.
 
-This seems like total bullshit to me! The actual computational and storage costs resulting from that sale probably never amount to more than 5p. It doesn't really make much odds to the sales platform whether you make 1 sale or 1,000 - you only ever cost them any measurable amount of money when you take up a human's paid time.
+This seems like total bullshit to me! The actual computational and storage costs resulting from that sale probably never amount to more than 2p. It doesn't really make much odds to the sales platform whether you make 1 sale or 1,000 - you only ever cost them any measurable amount of money when you take up a human's paid time.
 
 Chobble Tickets has been designed to be hosted on "edge" scripts - Bunny CDN's, specifically. These are compiled single-file JavaScript sites which are only active when processing a request, and which scale up and down (to zero hosts!) over Bunny's CDN, and which can connect to databases which also scale up and down automatically.
 
