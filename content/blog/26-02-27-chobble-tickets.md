@@ -1,7 +1,7 @@
 ---
 title: Chobble Tickets
 description: A low cost and open source ticket-selling platform
-date: 2025-02-27
+date: 2026-02-27
 tags:
   - web dev
   - tickets
