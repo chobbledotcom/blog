@@ -8,7 +8,7 @@ tags:
 draft: false
 ---
 
-[Chobble Tickets](https://chobble.com/tickets) is an open source ticket selling platform I made (and can host for you).
+[Chobble Tickets](https://tickets.chobble.com) is an open source ticket selling platform I made (and can host for you).
 
 The ticket-selling world is one of rentier capitalism. The sales platforms add their own fees onto every sale, on top of the unavoidable payment processing fees. At a minimum, this works out to about 70p of inescapable costs on every sale.
 
