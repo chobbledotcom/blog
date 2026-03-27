@@ -33,5 +33,5 @@ The system already has a bunch of neat features like QR code check-ins, a public
 Here are all the relevant links:
 
 - [Github](https://github.com/chobbledotcom/tickets/)
-- [Details on my site](https://chobble.com/tickets)
+- [Details on my site](https://tickets.chobble.com)
 - [Sign up for hosting with me](https://tix.chobble.com/ticket/register)
