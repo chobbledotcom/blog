@@ -1,5 +1,5 @@
 ---
-title: Updates Chobble Tickets
+title: Updates to Chobble Tickets
 description: On recent updates to my ticket sales platform
 date: 2026-03-30
 tags:
