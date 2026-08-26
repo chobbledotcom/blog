@@ -5,7 +5,7 @@ date: 2025-01-14
 tags: libregig
 ---
 
-I've started [Chobble](https://chobble.com) to bring some income in by building websites and providing tech consultancy, but the other project I've been working on and will be putting a lot of time into in 2025 is "Libregig".
+I've started [Chobble](https://www.chobble.com) to bring some income in by building websites and providing tech consultancy, but the other project I've been working on and will be putting a lot of time into in 2025 is "Libregig".
 
 Libregig is a Ruby on Rails webapp for managing the day-to-day of being in a band - events, members, set lists, documents, equipment, rehearsals, etc. It will (eventually) do things like:
 

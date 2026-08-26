@@ -22,11 +22,11 @@ And even though I didn't "need" the money, it was hard to avoid doing the mental
 
 All in all, it was just very disheartening. I felt like the "content" I was creating was pretty good - not super slick, but honest and useful - but nobody was seeing it or engaging with it, and it was locked behind a paywall I couldn't convince people to climb over.
 
-**So: I have now made my Patreon entirely "free", and have removed all of the membership tiers. I have re-uploaded all of its videos to [YouTube on my @ChobbleDotCom channel](https://www.youtube.com/@ChobbleDotCom), as well as to my own website on the new ["videos" section](https://chobble.com/videos/). I've copied all of my non-video text guides over to a new ["guides" section](https://chobble.com/guides/) too.**
+**So: I have now made my Patreon entirely "free", and have removed all of the membership tiers. I have re-uploaded all of its videos to [YouTube on my @ChobbleDotCom channel](https://www.youtube.com/@ChobbleDotCom), as well as to my own website on the new ["videos" section](https://www.chobble.com/videos/). I've copied all of my non-video text guides over to a new ["guides" section](https://www.chobble.com/guides/) too.**
 
 **If you'd like to learn about search engine optimisation, content writing, the effective use of AI, tweaking your browser setup, tidying your website, tracking search results, or a bunch more stuff - check out those links.**
 
-Hopefully by making all my content free and readily available, it will provide more value than it was doing behind Patreon. It's likely that without the (small) financial incentive, I will produce videos and guides at a slower pace. But that's fine - people can always [hire me](https://chobble.com/contact/) if they want me to explain / write something specifically for them.
+Hopefully by making all my content free and readily available, it will provide more value than it was doing behind Patreon. It's likely that without the (small) financial incentive, I will produce videos and guides at a slower pace. But that's fine - people can always [hire me](https://www.chobble.com/contact/) if they want me to explain / write something specifically for them.
 
 **If you previously subscribed for my Patreon page, thank you.** If you feel like your payments were wasted now that the content is free, please get in touch with me. I'll do whatever I can to keep you happy - including refunding you (minus Patreon's fees) if you really want. But I'd prefer to just give you some personalised SEO advice or something.
 

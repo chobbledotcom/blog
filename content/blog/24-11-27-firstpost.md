@@ -7,7 +7,7 @@ tags: business
 
 I haven't had a blog in about 20 years. Exciting!
 
-I ([Stefan](https://stefn.co.uk)) am a web developer with 17+ years experience. I've worked at [Bandcamp](https://bandcamp.com) for the last 5.5 of those but am now starting my own business. It's called [Chobble](https://chobble.com) - a nonsense word.
+I ([Stefan](https://stefn.co.uk)) am a web developer with 17+ years experience. I've worked at [Bandcamp](https://bandcamp.com) for the last 5.5 of those but am now starting my own business. It's called [Chobble](https://www.chobble.com) - a nonsense word.
 
 The business will:
 
