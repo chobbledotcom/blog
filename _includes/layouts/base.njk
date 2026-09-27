@@ -7,6 +7,7 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
+		{% if noindex %}<meta name="robots" content="noindex">{% endif %}
 		{%- css %}
 		  {% include "public/css/index.css" %}
 			{% include "public/css/prism.css" %}
